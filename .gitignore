@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+classifier-out/
+*.pt
+*.bin
+*.onnx
+.DS_Store
+.idea/

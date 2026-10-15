@@ -1,0 +1,19 @@
+# Install: pip install -r requirements.txt
+# For GPU torch on Windows, follow https://pytorch.org for the CUDA 12.x wheel first.
+
+# Core ML
+transformers>=4.40
+torch>=2.2
+datasets
+scikit-learn
+accelerate
+
+# Agent
+smolagents>=1.0
+
+# RAG knowledge base
+sentence-transformers>=3.0
+
+# Demo UI + Hub
+gradio>=5.0
+huggingface-hub
